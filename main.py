@@ -43,6 +43,7 @@ ADMIN_IDS = [35889827,35889827 ]  # Replace with actual admin user IDs
 
 # Bot Settings
 SUPPORT_CONTACT = "@FairyRoot"
+REQUIRED_CHANNEL ="https://t.me/ethio_techi1"
 DOWNLOAD_DIR = "bot_downloads"
 
 # User Roles
@@ -52,9 +53,9 @@ ROLE_STANDARD = "standard"
 ROLE_BANNED = "banned"
 
 # Download & File Size Limits
-STANDARD_USER_DAILY_DOWNLOADS = 5
-STANDARD_USER_FILE_SIZE_LIMIT_MB = 25.0
-PREMIUM_ADMIN_DIRECT_SEND_LIMIT_MB = 49.5
+STANDARD_USER_DAILY_DOWNLOADS = 100
+STANDARD_USER_FILE_SIZE_LIMIT_MB = 500
+PREMIUM_ADMIN_DIRECT_SEND_LIMIT_MB = 560
 
 
 # Premium Tiers (Telegram Stars)
