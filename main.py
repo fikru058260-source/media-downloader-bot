@@ -42,8 +42,8 @@ OWNER_ID = 35889827  # Replace with your actual Telegram user ID
 ADMIN_IDS = [35889827,35889827 ]  # Replace with actual admin user IDs
 
 # Bot Settings
-SUPPORT_CONTACT = "@FairyRoot"
-REQUIRED_CHANNEL ="https://t.me/ethio_techi1"
+SUPPORT_CONTACT = "@Fikrusss"
+REQUIRED_CHANNEL ="@ethio_techi1"
 DOWNLOAD_DIR = "bot_downloads"
 
 # User Roles
@@ -53,27 +53,27 @@ ROLE_STANDARD = "standard"
 ROLE_BANNED = "banned"
 
 # Download & File Size Limits
-STANDARD_USER_DAILY_DOWNLOADS = 100
-STANDARD_USER_FILE_SIZE_LIMIT_MB = 500
-PREMIUM_ADMIN_DIRECT_SEND_LIMIT_MB = 560
+STANDARD_USER_DAILY_DOWNLOADS = 900
+STANDARD_USER_FILE_SIZE_LIMIT_MB = 2000
+PREMIUM_ADMIN_DIRECT_SEND_LIMIT_MB = 2000
 
 
 # Premium Tiers (Telegram Stars)
 PREMIUM_PRICES = {
     "3_days": {
-        "stars": 50,
-        "days": 3,
-        "title": "Premium (3 Days)",
-        "description": "3 days of unlimited downloads",
+        "stars": 0,
+        "days": 0,
+        "title": "Premium (0 Days)",
+        "description": "0 days of unlimited downloads",
     },
     "30_days": {
-        "stars": 250,
-        "days": 30,
-        "title": "Premium (30 Days)",
-        "description": "30 days of unlimited downloads",
+        "stars": 0,
+        "days": 0,
+        "title": "Premium (0 Days)",
+        "description": "0 days of unlimited downloads",
     },
     "365_days": {
-        "stars": 1500,
+        "stars": 0,
         "days": 365,
         "title": "Premium (1 Year)",
         "description": "1 year of unlimited downloads",
