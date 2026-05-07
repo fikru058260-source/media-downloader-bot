@@ -53,7 +53,7 @@ ROLE_STANDARD = "standard"
 ROLE_BANNED = "banned"
 
 # Download & File Size Limits
-STANDARD_USER_DAILY_DOWNLOADS = 900
+STANDARD_USER_DAILY_DOWNLOADS = 9999
 STANDARD_USER_FILE_SIZE_LIMIT_MB = 2000
 PREMIUM_ADMIN_DIRECT_SEND_LIMIT_MB = 2000
 
@@ -61,19 +61,19 @@ PREMIUM_ADMIN_DIRECT_SEND_LIMIT_MB = 2000
 # Premium Tiers (Telegram Stars)
 PREMIUM_PRICES = {
     "3_days": {
-        "stars": 0,
-        "days": 0,
-        "title": "Premium (0 Days)",
-        "description": "0 days of unlimited downloads",
+        "stars": 15,
+        "days": 3,
+        "title": "Premium (3 Days)",
+        "description": "3 days of unlimited downloads",
     },
     "30_days": {
-        "stars": 0,
-        "days": 0,
-        "title": "Premium (0 Days)",
-        "description": "0 days of unlimited downloads",
+        "stars": 150,
+        "days": 30,
+        "title": "Premium (30 Days)",
+        "description": "30 days of unlimited downloads",
     },
     "365_days": {
-        "stars": 0,
+        "stars": 1500,
         "days": 365,
         "title": "Premium (1 Year)",
         "description": "1 year of unlimited downloads",
